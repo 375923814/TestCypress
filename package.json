@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "echo \"Error: no test specified\" && exit 1",
     "cypress": "cypress run --headless"
-
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^7.0.1"
+    "cypress": "^7.0.1",
+    "start-server-and-test": "^1.12.1"
   }
 }
