@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start": "echo \"Error: no test specified\" && exit 1",
-    "cypress": "cypress run --headless"
+    "cypress": "cypress run --headless",
+    "test": "start-server-and-test serve http://localhost:8080 cypress"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^7.1.0",
+    "cypress": "^7.0.1",
     "start-server-and-test": "^1.12.1"
-  }
+  },
+  "private": true
 }
