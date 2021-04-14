@@ -9,7 +9,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'npm install'
-                sh 'cypress:install'
+                sh 'npm run cypress:install'
             }
         }       
         stage('Test') {
