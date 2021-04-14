@@ -1,9 +1,3 @@
 { 
-  "projectId": "ughmkw",
-  "chromeWebSecurity": false,
-  "reporter": "junit",
-  "reporterOptions": {
-    "mochaFile": "cypress/reports/my-test-output[hash].xml",
-    "toConsole": true
-  }
+  "projectId": "ughmkw"
 }
