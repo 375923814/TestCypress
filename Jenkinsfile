@@ -14,6 +14,9 @@ pipeline {
         }       
         stage('Test') {
             steps {
+                sh 'ls -la'
+                sh 'cypress --version'
+                sh 'which cypress'
                 sh 'npm run cypress'
             }
         }       
