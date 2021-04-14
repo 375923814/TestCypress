@@ -18,6 +18,11 @@ pipeline {
                 sh 'cypress --version'
                 sh 'which cypress'
                 sh 'npm run cypress'
+                script{
+             allure([
+             includeProperties: false, jdk: '', results: [[path: 'cypress/reports']]
+             ])
+             }
             }
         }       
     }
