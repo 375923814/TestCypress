@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="15.7100" tests="14" failures="2">
+  <testsuite name="Root Suite" timestamp="2021-04-14T07:51:22" tests="0" file="cypress/integration/examples/actions.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Actions" timestamp="2021-04-14T07:51:22" tests="14" time="15.7100" failures="2">
+    <testcase name="Actions .type() - type into a DOM element" time="5.1120" classname=".type() - type into a DOM element">
+    </testcase>
+    <testcase name="Actions .focus() - focus on a DOM element" time="0.0000" classname=".focus() - focus on a DOM element">
+      <failure message="Timed out retrying after 4000ms: expected &apos;&lt;input#password1.form-control.action-focus&gt;&apos; to have class &apos;focus&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<input#password1.form-control.action-focus>' to have class 'focus'
+    at Context.eval (https://example.cypress.io/__cypress/tests?p=cypress/integration/examples/actions.spec.js:124:37)]]></failure>
+    </testcase>
+    <testcase name="Actions .blur() - blur off a DOM element" time="0.5950" classname=".blur() - blur off a DOM element">
+    </testcase>
+    <testcase name="Actions .clear() - clears an input or textarea element" time="0.6680" classname=".clear() - clears an input or textarea element">
+    </testcase>
+    <testcase name="Actions .submit() - submit a form" time="0.4650" classname=".submit() - submit a form">
+    </testcase>
+    <testcase name="Actions .click() - click on a DOM element" time="2.5880" classname=".click() - click on a DOM element">
+    </testcase>
+    <testcase name="Actions .dblclick() - double click on a DOM element" time="0.3460" classname=".dblclick() - double click on a DOM element">
+    </testcase>
+    <testcase name="Actions .rightclick() - right click on a DOM element" time="0.2180" classname=".rightclick() - right click on a DOM element">
+    </testcase>
+    <testcase name="Actions .check() - check a checkbox or radio element" time="1.0310" classname=".check() - check a checkbox or radio element">
+    </testcase>
+    <testcase name="Actions .uncheck() - uncheck a checkbox element" time="1.1040" classname=".uncheck() - uncheck a checkbox element">
+    </testcase>
+    <testcase name="Actions .select() - select an option in a &lt;select&gt; element" time="1.0100" classname=".select() - select an option in a &lt;select&gt; element">
+    </testcase>
+    <testcase name="Actions .scrollIntoView() - scroll an element into view" time="0.2470" classname=".scrollIntoView() - scroll an element into view">
+    </testcase>
+    <testcase name="Actions .trigger() - trigger an event on a DOM element" time="0.0000" classname=".trigger() - trigger an event on a DOM element">
+      <failure message="Timed out retrying after 4000ms: expected &apos;&lt;p&gt;&apos; to have text &apos;25&apos;, but the text was &apos;0&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<p>' to have text '25', but the text was '0'
+    at Context.eval (https://example.cypress.io/__cypress/tests?p=cypress/integration/examples/actions.spec.js:264:111)]]></failure>
+    </testcase>
+    <testcase name="Actions cy.scrollTo() - scroll the window or element to a position" time="2.3260" classname="cy.scrollTo() - scroll the window or element to a position">
+    </testcase>
+  </testsuite>
+</testsuites>

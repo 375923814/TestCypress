@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="2" failures="2">
+  <testsuite name="Root Suite" timestamp="2021-04-14T07:52:05" tests="0" file="cypress/integration/examples/aliasing.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Aliasing" timestamp="2021-04-14T07:52:05" tests="2" time="0.0000" failures="2">
+    <testcase name="Aliasing .as() - alias a DOM element for later use" time="0.0000" classname=".as() - alias a DOM element for later use">
+      <failure message="Timed out retrying after 4000ms: expected &apos;&lt;button.btn.btn-primary&gt;&apos; to have class &apos;btn-success&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<button.btn.btn-primary>' to have class 'btn-success'
+    at Context.eval (https://example.cypress.io/__cypress/tests?p=cypress/integration/examples/aliasing.spec.js:113:25)]]></failure>
+    </testcase>
+    <testcase name="Aliasing .as() - alias a route for later use" time="0.0000" classname=".as() - alias a route for later use">
+      <failure message="Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `getComment`. No request ever occurred.
+
+https://on.cypress.io/wait" type="CypressError"><![CDATA[CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `getComment`. No request ever occurred.
+
+https://on.cypress.io/wait
+    at cypressErr (https://example.cypress.io/__cypress/runner/cypress_runner.js:153363:18)
+    at Object.errByPath (https://example.cypress.io/__cypress/runner/cypress_runner.js:153432:10)
+    at checkForXhr (https://example.cypress.io/__cypress/runner/cypress_runner.js:140376:33)
+    at https://example.cypress.io/__cypress/runner/cypress_runner.js:140399:28
+    at tryCatcher (https://example.cypress.io/__cypress/runner/cypress_runner.js:10747:23)
+    at Function.Promise.attempt.Promise.try (https://example.cypress.io/__cypress/runner/cypress_runner.js:8021:29)
+    at tryFn (https://example.cypress.io/__cypress/runner/cypress_runner.js:146270:21)
+    at whenStable (https://example.cypress.io/__cypress/runner/cypress_runner.js:146308:12)
+    at https://example.cypress.io/__cypress/runner/cypress_runner.js:145803:16
+    at tryCatcher (https://example.cypress.io/__cypress/runner/cypress_runner.js:10747:23)
+    at Promise._settlePromiseFromHandler (https://example.cypress.io/__cypress/runner/cypress_runner.js:8682:31)
+    at Promise._settlePromise (https://example.cypress.io/__cypress/runner/cypress_runner.js:8739:18)
+    at Promise._settlePromise0 (https://example.cypress.io/__cypress/runner/cypress_runner.js:8784:10)
+    at Promise._settlePromises (https://example.cypress.io/__cypress/runner/cypress_runner.js:8864:18)
+    at Promise._fulfill (https://example.cypress.io/__cypress/runner/cypress_runner.js:8808:18)
+    at https://example.cypress.io/__cypress/runner/cypress_runner.js:10422:46
+From Your Spec Code:
+    at Context.eval (https://example.cypress.io/__cypress/tests?p=cypress/integration/examples/aliasing.spec.js:122:8)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

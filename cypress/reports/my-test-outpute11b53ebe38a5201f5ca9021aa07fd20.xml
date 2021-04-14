@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="3" failures="1">
+  <testsuite name="Root Suite" timestamp="2021-04-14T07:54:05" tests="0" file="cypress/integration/examples/navigation.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Navigation" timestamp="2021-04-14T07:54:05" tests="3" time="0.0000" failures="1">
+    <testcase name="Navigation &quot;before each&quot; hook for &quot;cy.go() - go back or forward in the browser&apos;s history&quot;" time="0.0000" classname="&quot;before each&quot; hook for &quot;cy.go() - go back or forward in the browser&apos;s history&quot;">
+      <failure message="Timed out retrying after 4050ms: `cy.click()` failed because this element is not visible:
+
+`&lt;a href=&quot;/commands/navigation&quot;&gt;Navigation&lt;/a&gt;`
+
+This element `&lt;a&gt;` is not visible because its parent `&lt;ul.dropdown-menu&gt;` has CSS property: `display: none`
+
+Fix this problem, or use `{force: true}` to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with
+
+Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Navigation`" type="CypressError"><![CDATA[CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element is not visible:
+
+`<a href="/commands/navigation">Navigation</a>`
+
+This element `<a>` is not visible because its parent `<ul.dropdown-menu>` has CSS property: `display: none`
+
+Fix this problem, or use `{force: true}` to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with
+
+Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Navigation`
+    at $Cy.ensureVisibility (https://example.cypress.io/__cypress/runner/cypress_runner.js:141670:24)
+    at runAllChecks (https://example.cypress.io/__cypress/runner/cypress_runner.js:130437:14)
+    at retryActionability (https://example.cypress.io/__cypress/runner/cypress_runner.js:130491:16)
+    at tryCatcher (https://example.cypress.io/__cypress/runner/cypress_runner.js:10747:23)
+    at Function.Promise.attempt.Promise.try (https://example.cypress.io/__cypress/runner/cypress_runner.js:8021:29)
+    at tryFn (https://example.cypress.io/__cypress/runner/cypress_runner.js:146270:21)
+    at whenStable (https://example.cypress.io/__cypress/runner/cypress_runner.js:146308:12)
+    at https://example.cypress.io/__cypress/runner/cypress_runner.js:145803:16
+    at tryCatcher (https://example.cypress.io/__cypress/runner/cypress_runner.js:10747:23)
+    at Promise._settlePromiseFromHandler (https://example.cypress.io/__cypress/runner/cypress_runner.js:8682:31)
+    at Promise._settlePromise (https://example.cypress.io/__cypress/runner/cypress_runner.js:8739:18)
+    at Promise._settlePromise0 (https://example.cypress.io/__cypress/runner/cypress_runner.js:8784:10)
+    at Promise._settlePromises (https://example.cypress.io/__cypress/runner/cypress_runner.js:8864:18)
+    at Promise._fulfill (https://example.cypress.io/__cypress/runner/cypress_runner.js:8808:18)
+    at https://example.cypress.io/__cypress/runner/cypress_runner.js:10422:46
+From Your Spec Code:
+    at Context.eval (https://example.cypress.io/__cypress/tests?p=cypress/integration/examples/navigation.spec.js:104:53)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
