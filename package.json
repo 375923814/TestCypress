@@ -6,7 +6,7 @@
   "scripts": {
     "start": "echo \"Error: no test specified\" && exit 1",
     "cypress:install": "cypress install",
-    "cypress": "cypress run -spec cypress/integration/examples/action.spec.js  -b chrome --record --key c7020d51-46a9-44f3-a7e0-9880754eb502 --headless",
+    "cypress": "cypress run -s cypress/integration/examples/action.spec.js -b chrome --headless --record --key c7020d51-46a9-44f3-a7e0-9880754eb502 ",
     "test": "start-server-and-test serve http://localhost:8080 cypress"
   },
   "author": "",
