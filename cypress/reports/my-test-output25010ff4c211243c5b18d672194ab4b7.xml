@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="3.8580" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2021-04-14T10:32:00" tests="0" file="cypress/integration/examples/aliasing.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Aliasing" timestamp="2021-04-14T10:32:00" tests="2" time="3.8580" failures="1">
+    <testcase name="Aliasing .as() - alias a DOM element for later use" time="0.0000" classname=".as() - alias a DOM element for later use">
+      <failure message="Timed out retrying after 4000ms: expected &apos;&lt;button.btn.btn-primary&gt;&apos; to have class &apos;btn-success&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<button.btn.btn-primary>' to have class 'btn-success'
+    at Context.eval (https://example.cypress.io/__cypress/tests?p=cypress/integration/examples/aliasing.spec.js:113:25)]]></failure>
+    </testcase>
+    <testcase name="Aliasing .as() - alias a route for later use" time="3.8580" classname=".as() - alias a route for later use">
+    </testcase>
+  </testsuite>
+</testsuites>

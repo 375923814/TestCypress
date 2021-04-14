@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2021-04-14T10:18:48" tests="0" file="cypress/integration/examples/viewport.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Viewport" timestamp="2021-04-14T10:18:48" tests="1" time="0.0000" failures="1">
+    <testcase name="Viewport cy.viewport() - set the viewport size and dimension" time="0.0000" classname="cy.viewport() - set the viewport size and dimension">
+      <failure message="Timed out retrying after 4000ms: expected &apos;[ &lt;a.dropdown-toggle&gt;, 20 more... ]&apos; to be &apos;visible&apos;
+
+This element `[ &lt;a.dropdown-toggle&gt;, 20 more... ]` is not visible because its parent `&lt;div#navbar.navbar-collapse.collapse&gt;` has CSS property: `display: none`" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '[ <a.dropdown-toggle>, 20 more... ]' to be 'visible'
+
+This element `[ <a.dropdown-toggle>, 20 more... ]` is not visible because its parent `<div#navbar.navbar-collapse.collapse>` has CSS property: `display: none`
+    at Context.eval (https://example.cypress.io/__cypress/tests?p=cypress/integration/examples/viewport.spec.js:111:30)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

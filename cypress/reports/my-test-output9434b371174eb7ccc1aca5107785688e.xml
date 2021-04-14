@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="8.4810" tests="5" failures="1">
+  <testsuite name="Root Suite" timestamp="2021-04-14T10:34:58" tests="0" file="cypress/integration/examples/cookies.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Cookies" timestamp="2021-04-14T10:34:58" tests="5" time="8.4810" failures="1">
+    <testcase name="Cookies cy.getCookie() - get a browser cookie" time="0.0000" classname="cy.getCookie() - get a browser cookie">
+      <failure message="Target cannot be null or undefined." type="AssertionError"><![CDATA[AssertionError: Target cannot be null or undefined.
+    at Context.eval (https://example.cypress.io/__cypress/tests?p=cypress/integration/examples/cookies.spec.js:112:27)]]></failure>
+    </testcase>
+    <testcase name="Cookies cy.getCookies() - get browser cookies" time="2.1940" classname="cy.getCookies() - get browser cookies">
+    </testcase>
+    <testcase name="Cookies cy.setCookie() - set a browser cookie" time="2.1840" classname="cy.setCookie() - set a browser cookie">
+    </testcase>
+    <testcase name="Cookies cy.clearCookie() - clear a browser cookie" time="1.6970" classname="cy.clearCookie() - clear a browser cookie">
+    </testcase>
+    <testcase name="Cookies cy.clearCookies() - clear browser cookies" time="2.4060" classname="cy.clearCookies() - clear browser cookies">
+    </testcase>
+  </testsuite>
+</testsuites>

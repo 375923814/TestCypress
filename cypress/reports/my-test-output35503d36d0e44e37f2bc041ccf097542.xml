@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2021-04-14T10:32:55" tests="0" file="cypress/integration/examples/baidu.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="My First Test" timestamp="2021-04-14T10:32:55" tests="1" time="0.0000" failures="1">
+    <testcase name="My First Test Does not do much!" time="0.0000" classname="Does not do much!">
+      <failure message="Timed out after waiting `60000ms` for your remote page to load.
+
+Your page did not fire its `load` event within `60000ms`.
+
+You can try increasing the `pageLoadTimeout` value in `cypress.json` to wait longer.
+
+Browsers will not fire the `load` event until all stylesheets and scripts are done downloading.
+
+When this `load` event occurs, Cypress will continue running commands." type="CypressError"><![CDATA[CypressError: Timed out after waiting `60000ms` for your remote page to load.
+
+Your page did not fire its `load` event within `60000ms`.
+
+You can try increasing the `pageLoadTimeout` value in `cypress.json` to wait longer.
+
+Browsers will not fire the `load` event until all stylesheets and scripts are done downloading.
+
+When this `load` event occurs, Cypress will continue running commands.
+    at timedOutWaitingForPageLoad (https://www.baidu.com/__cypress/runner/cypress_runner.js:137236:13)
+    at https://www.baidu.com/__cypress/runner/cypress_runner.js:138256:16
+    at tryCatcher (https://www.baidu.com/__cypress/runner/cypress_runner.js:10747:23)
+    at https://www.baidu.com/__cypress/runner/cypress_runner.js:5869:41
+    at tryCatcher (https://www.baidu.com/__cypress/runner/cypress_runner.js:10747:23)
+    at Promise._settlePromiseFromHandler (https://www.baidu.com/__cypress/runner/cypress_runner.js:8682:31)
+    at Promise._settlePromise (https://www.baidu.com/__cypress/runner/cypress_runner.js:8739:18)
+    at Promise._settlePromise0 (https://www.baidu.com/__cypress/runner/cypress_runner.js:8784:10)
+    at Promise._settlePromises (https://www.baidu.com/__cypress/runner/cypress_runner.js:8860:18)
+    at _drainQueueStep (https://www.baidu.com/__cypress/runner/cypress_runner.js:5454:12)
+    at _drainQueue (https://www.baidu.com/__cypress/runner/cypress_runner.js:5447:9)
+    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://www.baidu.com/__cypress/runner/cypress_runner.js:5463:5)
+    at Async.drainQueues (https://www.baidu.com/__cypress/runner/cypress_runner.js:5333:14)
+From Your Spec Code:
+    at Context.eval (https://www.baidu.com/__cypress/tests?p=cypress/integration/examples/baidu.spec.js:101:8)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

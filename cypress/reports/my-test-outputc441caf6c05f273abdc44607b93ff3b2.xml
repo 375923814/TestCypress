@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="5.3570" tests="7" failures="1">
+  <testsuite name="Root Suite" timestamp="2021-04-14T10:36:53" tests="0" file="cypress/integration/examples/spies_stubs_clocks.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Spies, Stubs, and Clock" timestamp="2021-04-14T10:36:53" tests="7" time="5.3570" failures="1">
+    <testcase name="Spies, Stubs, and Clock cy.spy() - wrap a method in a spy" time="1.3420" classname="cy.spy() - wrap a method in a spy">
+    </testcase>
+    <testcase name="Spies, Stubs, and Clock cy.spy() retries until assertions pass" time="2.7470" classname="cy.spy() retries until assertions pass">
+    </testcase>
+    <testcase name="Spies, Stubs, and Clock cy.stub() - create a stub and/or replace a function with stub" time="0.2330" classname="cy.stub() - create a stub and/or replace a function with stub">
+    </testcase>
+    <testcase name="Spies, Stubs, and Clock cy.clock() - control time in the browser" time="0.0000" classname="cy.clock() - control time in the browser">
+      <failure message="Timed out retrying after 4050ms: expected &apos;&lt;div#clock-div&gt;&apos; to have text &apos;1489449600&apos;, but the text was &apos;\n              Click for current time!\n            &apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4050ms: expected '<div#clock-div>' to have text '1489449600', but the text was '\n              Click for current time!\n            '
+    at Context.eval (https://example.cypress.io/__cypress/tests?p=cypress/integration/examples/spies_stubs_clocks.spec.js:160:34)]]></failure>
+    </testcase>
+    <testcase name="Spies, Stubs, and Clock cy.tick() - move time in the browser" time="0.8150" classname="cy.tick() - move time in the browser">
+    </testcase>
+    <testcase name="Spies, Stubs, and Clock cy.stub() matches depending on arguments" time="0.1420" classname="cy.stub() matches depending on arguments">
+    </testcase>
+    <testcase name="Spies, Stubs, and Clock matches call arguments using Sinon matchers" time="0.0780" classname="matches call arguments using Sinon matchers">
+    </testcase>
+  </testsuite>
+</testsuites>
